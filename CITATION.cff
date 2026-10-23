@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it and the original study."
+title: "tcga-lung-subtype-classifier: overlapping feature selection for LUAD vs LUSC"
+type: software
+authors:
+  - family-names: Pincha
+    given-names: Harsha
+repository-code: "https://github.com/HarshaP22/tcga-lung-subtype-classifier"
+license: MIT
+keywords:
+  - bioinformatics
+  - machine learning
+  - RNA-seq
+  - TCGA
+  - lung cancer
+  - feature selection
+references:
+  - type: article
+    title: "Lung adenocarcinoma and lung squamous cell carcinoma cancer classification, biomarker identification, and gene expression analysis using overlapping feature selection methods"
+    authors:
+      - family-names: Chen
+        given-names: Joe W.
+      - family-names: Dhahbi
+        given-names: Joseph
+    journal: "Scientific Reports"
+    volume: 11
+    start: 13323
+    year: 2021
+    doi: "10.1038/s41598-021-92725-8"

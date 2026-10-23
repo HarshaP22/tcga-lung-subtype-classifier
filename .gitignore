@@ -1,0 +1,16 @@
+# Data: public and re-downloadable with `bash download_data.sh` (see docs/DATA.md)
+data/raw/
+data/external/
+data/processed/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

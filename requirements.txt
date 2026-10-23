@@ -1,0 +1,19 @@
+# Python environment (pinned): LUAD/LUSC overlapping feature-selection reproduction
+# Install:  python -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt
+numpy==2.2.6
+pandas==2.3.3
+pyarrow==25.0.0         # parquet IO for processed matrices
+scipy==1.15.3
+scikit-learn==1.7.2
+xgboost==3.2.0
+shap==0.49.1
+lifelines==0.30.0
+matplotlib==3.10.9
+seaborn==0.13.2
+statsmodels==0.14.6
+conorm==1.2.0            # edgeR-style TMM normalization in Python
+mrmr-selection==0.2.8   # minimum-redundancy-maximum-relevance
+gseapy==1.3.0           # GO/KEGG/Reactome enrichment (Enrichr gene sets)
+numba==0.66.0
+cloudpickle==3.1.2
+slicer==0.0.8
